@@ -1,8 +1,8 @@
-# Biblioteker til opgave A og B.
+# Biblioteker til opgaverne
 add_library(plural_lib plural.c)
 add_library(strrev_lib strrev.c)
 
-# Hovedprogrammer til lektionens opgaver.
+# Hovedprogrammer til opgaverne.
 add_executable(opgave-a opgave-a.c)
 target_link_libraries(opgave-a PRIVATE plural_lib)
 
